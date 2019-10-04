@@ -1,0 +1,58 @@
+CSS transitions allows you to change property values smoothly, over a given duration.
+
+
+Some older browsers need specific prefixes (-webkit-) to understand the transition properties:
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -webkit-transition: width 2s; /* Safari prior 6.1 */
+  transition: width 2s;
+}
+
+Using transitions:
+
+Specify property to affect and how long transition lasts
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+
+transition
+
+	basic (can put everything in this one)
+
+transition-delay
+
+	specifies delay in seconds for transition
+
+transition-duration
+
+	specifies duration for transition
+
+transition-property
+
+	specifies property to change for transition
+
+transition-timing-function
+
+	With this you can also specify speed curves/easing:
+
+	ease - transition effect with a slow start, then fast, then end slowly (this is default)
+	linear - transition effect with the same speed from start to end
+	ease-in - transition effect with a slow start
+	ease-out - transition effect with a slow end
+	ease-in-out - transition effect with a slow start and end
+
+	Examples:
+
+	{transition-timing-function: linear;}
+	{transition-timing-function: ease;}
+	{transition-timing-function: ease-in;}
+	{transition-timing-function: ease-out;}
+	{transition-timing-function: ease-in-out;}
