@@ -24,13 +24,13 @@ These will only work if *position* property is set.
 
 4) *position: absolute;*
 
-  Elements with *position: fixed;* are always positioned relative to the nearest positioned ancestor (
+  Elements with *absolute: fixed;* are always positioned relative to the nearest positioned ancestor (
   instead of positioned relative to the viewport, like fixed). If an absolute positioned element has no positioned ancestors, 
   it uses the document body, and moves along with page scrolling.
 
 5) *position: sticky;*
 
-  Elements with *position: fixed;* are always positioned based on the user's scroll position.
+  Elements with *sticky: fixed;* are always positioned based on the user's scroll position.
   A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative 
   until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
 
