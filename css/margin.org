@@ -18,19 +18,19 @@ Margin shorthand properties
 
 Properties:
 
-1) 4 values - **margin: 1px 2px 3px 4px;**
+1) 4 values - *margin: 1px 2px 3px 4px;*
 
   Here *margin-top* is 1px, *margin-right* is 2px, *margin-bottom* is 3px and *margin-left* is 4px
 
-2) 3 values - **margin: 1px 2px 3px;**
+2) 3 values - *margin: 1px 2px 3px;*
 
-  Here *margin-top* is 1px, *margin-right* & *margin-left* are 2px each & *margin-bottom* is 3px
+  Here *margin-top* is 1px, *margin-right* & *margin-left* are 2px each and *margin-bottom* is 3px
 
-3) 2 values - **margin: 1px 2px;**
+3) 2 values - *margin: 1px 2px;*
 
-  Here *margin-top* & *margin-bottom* are 1px each, *margin-right* & *margin-left* are 2px each
+  Here *margin-top* & *margin-bottom* are 1px each, *margin-right* and *margin-left* are 2px each
 
-4) 1 value - **margin: 1px;**
+4) 1 value - *margin: 1px;*
 
   Here *margin-top*, *margin-right*, *margin-bottom*, *margin-left* are 1px each
 
