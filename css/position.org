@@ -1,0 +1,43 @@
+CSS *position* property is used to specify the type of position. 
+It can have values like *static*, *relative*, *fixed*, *absolute* or *sticky* 
+And are positioned by using properties like  *top*, *bottom*, *left*, and *right* 
+These will only work if *position* property is set.
+
+1) *position: static;*
+
+  Elements with *position: static;* are always positioned according to the normal flow of the page. 
+  HTML elements are by default *static* in position and is not effected by the *top*, *bottom*, *left*, and *right* 
+  properties
+
+2) *position: relative;*
+
+  Elements with *position: relative;* are always positioned relative to its normal position.
+  *top*, *bottom*, *left*, and *right* properties can be used to positioned the elements accordingly from its normal position.
+  Other content will not be adjusted to fit into any gap left by the element.
+
+3) *position: fixed;*
+
+  Elements with *position: fixed;* are always positioned relative to th e viewport, 
+  which means it always stays in the same place even if the page is scrolled.
+  *top*, *bottom*, *left*, and *right* properties can be used to positioned the elements accordingly.
+  A fixed element does not leave a gap in the page where it would normally have been located.
+
+4) *position: absolute;*
+
+  Elements with *position: fixed;* are always positioned relative to the nearest positioned ancestor (
+  instead of positioned relative to the viewport, like fixed). If an absolute positioned element has no positioned ancestors, 
+  it uses the document body, and moves along with page scrolling.
+
+5) *position: sticky;*
+
+  Elements with *position: fixed;* are always positioned based on the user's scroll position.
+  A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative 
+  until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+
+Positioning elements can sometimes end up overlapping other elements,
+CSS *z-index* property specifies the stack order of an element which places the elements on top or bottom
+
+NOTE -
+
+*z-index* can have negative values
