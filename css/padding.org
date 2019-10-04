@@ -1,0 +1,44 @@
+CSS *padding* properties are used to create space around element's content, inside the defined borders
+
+There are different properties for setting the padding for each side of an element - top, right, bottom & left
+
+*padding-top* is used to set padding on top of an element 
+
+*padding-right* is used to set padding on right of an element
+
+*padding-bottom* is used to set padding on bottom of an element
+
+*padding-left* is used to set padding on left of an elements
+
+Padding properties can have values like 
+
+*length* - specifies a padding in px, pt, cm, etc.
+
+*%* - specifies a padding in % of the width of the containing element
+
+*inherit* - specifies that the padding should be inherited from the parent element
+
+Padding shorthand properties
+
+Properties:
+
+1) 4 values - *padding: 1px 2px 3px 4px;*
+
+  Here *padding-top* is 1px, *padding-right* is 2px, *padding-bottom* is 3px and *padding-left* is 4px
+
+2) 3 values - *padding: 1px 2px 3px;*
+
+  Here *padding-top* is 1px, *padding-right* & *padding-left* are 2px each and *padding-bottom* is 3px
+
+3) 2 values - *padding: 1px 2px;*
+
+  Here *padding-top* & *padding-bottom* are 1px each, *padding-right* and *padding-left* are 2px each
+
+4) 1 value - *padding: 1px;*
+
+  Here *padding-top*, *padding-right*, *padding-bottom*, *padding-left* are 1px each
+
+
+NOTE - 
+
+1) Negative values are not allowed.

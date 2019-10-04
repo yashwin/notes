@@ -3,34 +3,40 @@ CSS *margin* properties are used to create space around elements outside the def
 There are different properties for setting the margin for each side of an element - top, right, bottom & left
 
 *margin-top* is used to set margin on top of an element
+
 *margin-right* is used to set margin on right of an element
+
 *margin-bottom* is used to set margin on bottom of an element
+
 *margin-left* is used to set margin on left of an elements
 
 Margin properties can have values like 
 
 *auto* - the browser will calculate the margin value (This will center the element horizontally within its container)
+
 *length* - specifies a margin in px, pt, cm, etc.
+
 *%* - specifies a margin in % of the width of the containing element
+
 *inherit* - specifies that the margin should be inherited from the parent element
 
 Margin shorthand properties
 
 Properties:
 
-1) 4 values - **margin: 1px 2px 3px 4px;**
+1) 4 values - *margin: 1px 2px 3px 4px;*
 
   Here *margin-top* is 1px, *margin-right* is 2px, *margin-bottom* is 3px and *margin-left* is 4px
 
-2) 3 values - **margin: 1px 2px 3px;**
+2) 3 values - *margin: 1px 2px 3px;*
 
-  Here *margin-top* is 1px, *margin-right* & *margin-left* are 2px each & *margin-bottom* is 3px
+  Here *margin-top* is 1px, *margin-right* & *margin-left* are 2px each and *margin-bottom* is 3px
 
-3) 2 values - **margin: 1px 2px;**
+3) 2 values - *margin: 1px 2px;*
 
-  Here *margin-top* & *margin-bottom* are 1px each, *margin-right* & *margin-left* are 2px each
+  Here *margin-top* & *margin-bottom* are 1px each, *margin-right* and *margin-left* are 2px each
 
-4) 1 value - **margin: 1px;**
+4) 1 value - *margin: 1px;*
 
   Here *margin-top*, *margin-right*, *margin-bottom*, *margin-left* are 1px each
 
