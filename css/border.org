@@ -1,0 +1,138 @@
+CSS *border* properties are used to specify the style, width, and color of an element's border
+
+Border properties
+
+  *border-style* - this specifies what kind of border to display
+
+  values can be 
+
+    *dotted* - used to add a dotted border
+
+    *dashed* - used to add a dashed border
+
+    *solid* - used to add a solid border
+
+    *double* - used to add a double border
+
+    *groove* - used to add a 3D grooved border. The effect depends on the *border-color* value
+
+    *ridge* - used to add a 3D ridged border. The effect depends on the *border-color* value
+
+    *inset* - used to add a 3D inset border. The effect depends on the *border-color* value
+
+    *outset* - used to add a 3D outset border. The effect depends on the *border-color* value
+
+    *none* - used to add no border
+
+    *hidden* - used to add a hidden border
+
+  There are different properties for setting the style for each borders - top, right, bottom & left
+
+    *border-top-style* is used to set border top style
+
+    *border-right-style* is used to set border right style
+
+    *border-bottom-style* is used to set border bottom style
+
+    *border-left-style* is used to set border left style
+
+  Below properties will be effective only if *border-style* is applied
+
+    *border-width* property specifies the width of borders.
+
+      values can be
+
+        *length* - specifies a width in px, pt, cm, etc.
+
+        *pre-defined* - thin, medium, or thick
+
+      There are different properties for setting the width for each borders - top, right, bottom & left 
+
+        *border-top-width* is used to set border top width
+
+        *border-right-width* is used to set border right width
+
+        *border-bottom-width* is used to set border bottom width
+
+        *border-left-width* is used to set border left width
+
+    *border-color* property is used to set the color of the borders.
+
+      value can be
+
+        *name* - specify a color name, like "red"
+        *Hex* - specify a hex value, like "#ff0000"
+        *RGB* - specify a RGB value, like "rgb(255,0,0)"
+        *transparent*
+
+       There are different properties for setting the width for each borders - top, right, bottom & left 
+
+        *border-top-color* is used to set border top color
+
+        *border-right-color* is used to set border right color
+
+        *border-bottom-color* is used to set border bottom color
+
+        *border-left-color* is used to set border left color  
+
+    *border-radius* property is used to add rounded borders to an element
+
+      values can be
+
+        *length* - specifies a margin in px, pt, cm, etc.
+
+        *%* - specifies a margin in % of the width of the containing element
+
+      There are different properties for setting the width for each borders - top, right, bottom & left 
+
+        *border-top-left-radius* is used to set border top left radius
+
+        *border-top-right-radius* is used to set border top right radius
+
+        *border-bottom-left-radius* is used to set border bottom left radius
+
+        *border-bottom-right-radius* is used to set border bottom right radius
+
+Border shorthand properties
+
+Properties:
+
+  1) 4 values - *border-style: dotted dashed solid double;*
+
+    Here *border-top-style* is dotted, *border-right-style* is dashed, *border-bottom-style* is solid and *border-left-style* is double
+
+  2) 3 values - *border-style: dotted dashed solid;*
+
+    Here *border-top-style* is dotted, *border-right-style* & *border-left-style* are dashed and *border-bottom-style* is solid
+
+  3) 2 values - *border-style: dotted dashed;*
+
+    Here *border-top-style* & *border-bottom-style* are dotted and *border-right-style* & *border-left-style* are dashed
+
+  4) 1 value - *border-style: dotted*
+
+    Here *border-top-style*, *border-right-style*, *border-bottom-style*, *border-left-style* are dotted
+
+  *border-width* |  *border-color* | *border-radius*  can have 1 to 4 values and similar effect will be applicable as *border-style*
+
+  *border* property is a shorthand property for the following individual border properties
+
+    *border-width*
+    *border-style* (required)
+    *border-color*
+
+  *border: 5px solid red;* applies 5px width to *border-width* of solid *border-style* of red *border-color*
+
+    There are different properties for setting the border for each borders - top, right, bottom & left
+
+      *border-top* is used to set top border 
+
+      *border-right* is used to set right border 
+
+      *border-bottom* is used to set bottom border 
+
+      *border-left* is used to set left border 
+
+NOTE - 
+
+1) If border-color is not set, it inherits the color of the element.
