@@ -1,0 +1,87 @@
+# CSS Pseudo Classes
+
+All sources were provided by <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes"><abbr title="Mozilla Developer Network">MDN</abbr>&#128279;</a>
+
+## Description
+
+A CSS *pseudo-class* is a keyword added to a selector that specifies a special state of the selected element(s). For example, `:hover` can be used to change a button's color when the user's pointer hovers over it.
+
+``` CSS
+button:hover {
+	color: tomato;
+}
+```
+
+Pseudo-classes let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator (`:visited`, for example), the status of its content (like `:checked` on certain form elements), or the position of the mouse (like `:hover`, which lets you know if the mouse is over an element or not).
+
+## Pseudo Classes
+
+* [`:active`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:active)
+* [`:checked`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked)
+* [`:default`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:default)
+* [`:defined`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:defined)
+* [`:disabled`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled)
+* [`:empty`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:empty)
+* [`:enabled`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled)
+* [`:first`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:first)
+* [`:first-child`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child)
+* [`:first-of-type`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type)
+* [`:first-of-type`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type)
+* [`:fullscreen`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:fullscreen)
+* [`:focus`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus)
+* [`:focus-within`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within)
+* [`:host`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:host)
+* [`:hover`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover)
+* [`:indeterminate`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate)
+* [`:in-range`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:in-range)
+* [`:invalid`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid)
+* [`:last-child`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child)
+* [`:last-of-type`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type)
+* [`:left`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:left)
+* [`:link`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:link)
+* [`:only-child`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:only-child)
+* [`:only-of-type`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:only-of-type)
+* [`:optional`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:optional)
+* [`:out-of-range`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:out-of-range)
+* [`:read-only`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:read-only)
+* [`:read-write`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:read-write)
+* [`:required`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:required)
+* [`:right`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:right)
+* [`:root`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
+* [`:scope`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:scope)
+* [`:target`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:target)
+* [`:valid`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:valid)
+* [`:visited`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:visited)
+
+## Pseudo Class Functions
+
+* [`:host()`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:host)
+* [`:lang()`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:lang)
+* [`:not()`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
+* [`:nth-child()`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
+* [`:nth-last-child()`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child)
+* [`:nth-last-of-type()`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-of-type)
+* [`:nth-of-type()`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type)
+
+## Expirimental Pseudo Classes
+
+* [`:any-link`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link)
+* [`:blank`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:blank)
+* `:current`
+* `:drop`
+* `:future`
+* [`:focus-visible`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible)
+* `:local-link`
+* `:past`
+* [`:placeholder-shown`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:placeholder-shown)
+* `:target-within`
+* `:user-invalid`
+
+## Expirimental Pseudo Class Functions
+
+* [`:dir()`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:host)
+* [`:has()`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:has)
+* [`:host-context()`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:host-context)
+* [`:is()`&#128279;](https://developer.mozilla.org/en-US/docs/Web/CSS/:is)
+* `:nth-col()`
+* `:nth-last-col()`
