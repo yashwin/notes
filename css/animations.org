@@ -1,0 +1,54 @@
+With CSS animation you can animate HTML elements. Some browsers need specific prefixes (-webkit-) to understand the animation properties. An animation lets an element change from one style to another.
+
+To specify an animation, you need keyframes, which hold a certain style of an element at a certain time.
+
+In this example the animation will last 4 seconds and will gradually change the background-color from red to yellow:
+
+ /* The animation code */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+Find here all the CSS animation properties:
+
+@keyframes
+Specifies the animation code
+
+animation
+A shorthand property for setting all the animation properties
+
+animation-delay
+Specifies a delay for the start of an animation
+
+animation-direction
+Specifies whether an animation should be played forwards, backwards or in alternate
+cycles
+
+animation-duration
+Specifies how long time an animation should take to complete one cycle
+
+animation-fill-mode
+Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both)
+
+animation-iteration-count
+Specifies the number of times an animation should be played
+
+animation-name
+Specifies the name of the @keyframes animation
+
+animation-play-state
+Specifies whether the animation is running or paused
+
+animation-timing-function
+Specifies the speed curve of the animation
+
