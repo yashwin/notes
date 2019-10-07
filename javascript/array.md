@@ -55,14 +55,14 @@ console.log(numbers[1]) // 2
   ```
 
 ### `Check if variable is an array`
-
+  
+  ``` js
   typeof numbers; // returns object
+  ```
 
   so, we need to use
 
-    ``` js
-    Array.isArray(numbers);   // returns true
-    ```
+    Array.isArray(numbers); // returns true
 
 NOTE - Arrays are of "objects" type
 
@@ -72,46 +72,41 @@ NOTE - Arrays are of "objects" type
 ### `1) Convert array to string`
 
   ##### `i) Using *toString()* method`
-    ``` js
+    
     var cities = ["Bangalore", "Udupi", "Mangalore", "Coorg"];
     cities.toString(); // "Bangalore,Udupi,Mangalore,Coorg"
-    ```
+
 
   ##### `ii) Using join() method - we can specify the seperator`
-    ``` js
+  
     var cities = ["Bangalore", "Udupi", "Mangalore", "Coorg"];
     cities.join(" * "); // "Bangalore * Udupi * Mangalore * Coorg"
-    ```
+ 
 
 ### `2) Popping: pop() - this method is used to remove the last item from the array`
 
-    ``` js
+   
     // This returns the value that was removed
 
     var cities = ["Bangalore", "Udupi", "Mangalore", "Coorg"];
     cities.pop(); // "Coorg"
     console.log(cities); // ["Bangalore", "Udupi", "Mangalore"]
-    ```
 
 ### `3) Pushing: push() - this method is used to add an item to the end of an array`
 
-    ``` js
     // This returns the new array length
 
     var cities = ["Bangalore", "Udupi", "Mangalore"];
     cities.push("Coorg"); // 4
     console.log(cities); // ["Bangalore", "Udupi", "Mangalore", "Coorg"];
-    ```
 
 ### `4) Shifting Elements: shift() - this method works equivalent to pop() but removes the first item of an array`
 
-    ``` js
     // This returns the value that was removed
 
     var cities = ["Bangalore", "Udupi", "Mangalore", "Coorg"];
     cities.shift(); // "Bangalore"
     console.log(cities); // ["Udupi", "Mangalore", "Coorg"]
-    ```
 
 ### `5) Unshifting Elements: unshift() - this method adds a new element to an array (at the beginning)`
 
@@ -125,7 +120,6 @@ NOTE - Arrays are of "objects" type
 
 ### `6) Splicing an Array: splice() - this method can be used to add new items to an array or to remove items`
 
-    ``` js
     // This returns an array with the deleted items
 
     var cities = ["Bangalore", "Udupi", "Mangalore", "Coorg"];
@@ -134,7 +128,6 @@ NOTE - Arrays are of "objects" type
 
     cities.splice(0,1); // ["Bangalore"]
     console.log(cities); // ["Udupi", "Mysore", "Mangalore", "Coorg"]
-    ```
 
     Here - 
       First Parameter(2) is the position where new elements should be added
@@ -145,22 +138,18 @@ NOTE - Arrays are of "objects" type
     
     `concat()` method does not change the existing arrays. It always returns a new array & an take any number of array arguments
 
-    ``` js
     var cities1 = ["Bangalore", "Coorg"];
     var cities2 = ["Udupi", "Mangalore"];
     var cities3 = ["Mysore"];
     var cities = cities1.concat(cities2, cities3); // ["Bangalore", "Coorg", "Udupi", "Mangalore", "Mysore"]
-    ```
 
 ### `8) Slicing an Array: slice() - this method slices out a piece of an array into a new array.
 
-    ```js
     var cities = ["Bangalore", "Udupi", "Mangalore", "Coorg"];
     var newCities = cities.slice(1); // ["Udupi", "Mangalore", "Coorg"] Removes the first item
     var newCities = cities.slice(2); // ["Mangalore", "Coorg"] Removes the first 2 items
     var newCities = cities.slice(3); // ["Mangalore", "Coorg"] Removes the first 3 items
     var newCities1 = cities.slice(1,3); // ["Udupi", "Mangalore"] Removes the first item to second item
-    ```
 
     This method selects elements from the start argument, and up to (but not including) the end argument,
     end argument is not taken into account if not provided
