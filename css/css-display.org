@@ -1,0 +1,54 @@
+CSS *display* property specifies the display behavior (the type of rendering box) of an element.
+
+There are different properties for setting the display of an element:
+
+    *inline*  displays an element as an *inline* element (like <span>). Any height and width properties will have no effect
+
+    *block*  displays an element as a *block* element (like <p>). It starts on a new line, and takes up the whole width
+
+    *contents*  makes the container disappear, making the child elements children of the element the next level up in the
+        DOM
+
+    *flex*  displays an element as a *block-level flex container*
+
+    *grid*	displays an element as a *block-level grid container*
+
+    *inline-block*	displays an element as an *inline-level block container*. The element itself is formatted as an inline
+        element, but you can apply height and width values
+
+    *inline-flex*	displays an element as an *inline-level flex container*
+
+    *inline-grid*	displays an element as an *inline-level grid container*
+
+    *inline-table*	the element is displayed as an *inline-level table*
+
+    *list-item*  the element will behave like a *<li>* element
+
+    *run-in*  displays an element as either block or inline, depending on context
+
+    *table*	 the element will behave ike a *<table>* element
+
+    *table-caption*	 the element will behave like a *<caption>* element
+
+    *table-column-group*  the element will behave like a *<colgroup>* element
+
+    *table-header-group*  the element will behave like a *<thead>* element
+
+    *table-footer-group*  the element will behave like a *<tfoot>* element
+
+    *table-row-group*	the element will behave like a *<tbody>* element
+
+    *table-cell*  the element will behave like a *<td>* element
+
+    *table-column*	the element will behave like a *<col>* element
+
+    *table-row*	 the element behave like a *<tr>* element
+
+    *none*  the element is completely removed
+
+    *initial*  sets this property to its default value
+
+    *inherit*  inherits this property from its parent element
+
+How to use the *display* property in your css class:
+display: value;
